@@ -89,7 +89,7 @@ module Types
 
     field :logo, String, null: true
     def logo
-      default_logo = "https://via.placeholder.com/100x100/000000/FFFFFF/?text=Logo"
+      default_logo = "https://ssangyongsports.eu.org/logo.png"
       return default_logo if object.logo_blob.blank?
 
       url = begin
