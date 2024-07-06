@@ -1653,20 +1653,7 @@ class Messenger extends Component<MessengerProps, MessengerState> {
                           {this.state.display_mode === 'home' && (
                             <React.Fragment>
                               <Home />
-                              <FooterAck>
-                                <a href="https://chaskiq.io" target="blank">
-                                  <img
-                                    alt={'https://chaskiq.io'}
-                                    src={`${this.props.domain}/logo-gray.png`}
-                                  />
-                                  {/* NOTICE:
-                                    If you need to rebrand chaskiq 
-                                    there is special commercial license, 
-                                    please contact us 
-                                  */}
-                                  {i18n.t('messenger.runon')}
-                                </a>
-                              </FooterAck>
+                              
                             </React.Fragment>
                           )}
 

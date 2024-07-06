@@ -340,10 +340,7 @@ export function Conversation(props) {
           conversation.messages &&
           conversation.messages.collection.length >= 3 && (
             <FooterAckInline>
-              <a href="https://chaskiq.io" target="blank">
-                <img alt="Chaskiq.io" src={`${domain}/logo-gray.png`} />{' '}
-                {i18n.t('messenger.runon')}
-              </a>
+              
             </FooterAckInline>
           )}
 
