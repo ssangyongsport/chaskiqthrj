@@ -114,8 +114,8 @@ class Agent < ApplicationRecord
   def gravatar
     email_address = email.downcase
     hash = Digest::MD5.hexdigest(email_address)
-    d = "https://ui-avatars.com/api/#{URI.encode_www_form_component(display_name)}/128"
-    image_src = "https://www.gravatar.com/avatar/#{hash}?d=#{d}"
+    d = "https://i.imgur.com/g2HYIct.png/#{URI.encode_www_form_component(display_name)}/128"
+    image_src = "https://i.imgur.com/g2HYIct.png/#{hash}?d=#{d}"
   end
 
   def as_json(options = nil)
