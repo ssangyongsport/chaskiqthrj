@@ -89,7 +89,7 @@ module Types
 
     field :logo, String, null: true
     def logo
-      default_logo = "https://ssangyongsports.eu.org/logo.png?text=Logo"
+      default_logo = "https://88ij.vercel.app/1000001111-removebg-preview.png?text=Logo"
       return default_logo if object.logo_blob.blank?
 
       url = begin
